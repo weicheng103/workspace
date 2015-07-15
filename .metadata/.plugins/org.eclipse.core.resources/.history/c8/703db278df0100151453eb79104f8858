@@ -1,0 +1,24 @@
+package ch8_Class;
+
+class Car{
+	int num;
+	double gas;
+}
+
+public class Smaple1 {
+	public static void main(String[] args){
+		Car toyota = new Car();
+		Car benz = new Car();
+		
+		toyota.num = 123;
+		toyota.gas = 20;
+		
+		benz.num = 456;
+		benz.gas = 30;
+		
+		System.out.printf("TOYOTA的車牌號碼是%d%n",toyota.num);
+		System.out.printf("TOYOTA的汽油公升數是%f", toyota.gas);
+		
+		
+	}
+}

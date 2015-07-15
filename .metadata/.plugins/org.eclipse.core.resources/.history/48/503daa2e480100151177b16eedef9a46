@@ -1,0 +1,19 @@
+package test;
+
+public class sample7_10 {
+	public static void main(String[] args) {
+		int[][] test = new int[2][5];
+		
+
+		for(int i = 0; i < 2; i++){
+			for(int j = 0; j < 5; j++ ){
+					test[i][j] = 10 ;
+			}
+		}
+		
+		for(int[] F:test){
+			for(int value : F)
+			System.out.println(value);
+		}
+	}
+}

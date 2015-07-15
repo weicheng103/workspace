@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/MyProject/src/ch10/Download.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="ch10.Download"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="https://tw.news.yahoo.com/%E9%80%BE8.5%E8%B6%85%E7%B4%9A%E5%A4%A7%E5%9C%B0%E9%9C%87-%E6%91%A7%E6%AF%80%E5%A4%AA%E5%B9%B3%E6%B4%8B%E5%91%A8%E5%9C%8D%E5%9C%8B%E5%AE%B6-133600094.html c:\a\v.txt"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="MyProject"/>
+</launchConfiguration>

@@ -1,0 +1,21 @@
+package test;
+
+public class Field2 {
+	String color;
+	char size;
+	
+	Field2(String color, char size) {
+		this.color = color;
+		this.size = size;
+	}
+}
+
+public class Field2 {
+	public static void main(String[] args ) {
+		Field2 sun = new Field2("red", 'S');
+		Field2 spring = new Field2("green", 'M');
+		
+		System.out.printf("sun(%s, %c)%n", sun.color, sun.size);
+		System.out.printf("spring(%s, %c)%n", spring.color, spring.size);
+	}
+}

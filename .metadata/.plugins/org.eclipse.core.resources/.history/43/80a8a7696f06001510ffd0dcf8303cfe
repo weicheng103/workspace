@@ -1,0 +1,29 @@
+package ch8_Class;
+
+class Car{
+	int num;
+	double gas;
+	
+	void show(){
+		System.out.println("number:"+num);
+		System.out.println("gas:"+gas);
+	}
+}
+
+public class Smaple1 {
+	public static void main(String[] args){
+		Car toyota = new Car();
+		Car benz = new Car();
+		
+		toyota.num = 123;
+		toyota.gas = 20;
+		
+		benz.num = 456;
+		benz.gas = 30;
+		
+		toyota.show();
+		benz.show();
+		
+		
+	}
+}
